@@ -1,0 +1,17 @@
+title: 
+description: "A blueprint of the Hellicarrier shows that someone has blasted in on the lower levels."
+stuff: []
+  limit: 
+  limit_message: 
+  options:
+questions:
+  - text: You dash off toward the lower levels, along with others, and find a large hole blasted in the wall of a storage area. You begin to investigate, when with a scream, out leaps the Green Goblin, accompanied with 12 Extremis soldiers! This can only mean one thing, the Mandarin is nearby as well, but there's no time to think! The invaders are attacking!
+    options:
+
+      - text: Go search
+        goto_file: branch_name.yml
+        requires_stuff: 
+          - blaster
+
+      - text: Remain
+        goto_file: 
