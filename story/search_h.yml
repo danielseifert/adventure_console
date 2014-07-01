@@ -1,17 +1,14 @@
-title: 
+title: ""
 description: "A blueprint of the Hellicarrier shows that someone has blasted in on the lower levels."
 stuff: []
-  limit: 
-  limit_message: 
-  options:
 questions:
-  - text: You dash off toward the lower levels, along with others, and find a large hole blasted in the wall of a storage area. You begin to investigate, when with a scream, out leaps the Green Goblin, accompanied with 12 Extremis soldiers! This can only mean one thing, the Mandarin is nearby as well, but there's no time to think! The invaders are attacking!
+  - text: You dash off toward the lower levels, along with others, and find a large hole blasted in the wall of a storage area. You begin to investigate, when out leaps Venom and the Mandarin, accompanied with 12 Extremis soldiers! While you and the other agents are distracted, the Mandarin turns and dashes off through a door, destroying the opening mechanism behind him. To get through the door, you'll need tech skills to repair the opening mechanism. Do you pursue the Mandarin, or stay and fight?
     options:
 
-      - text: Go search
-        goto_file: branch_name.yml
+      - text: Follow the Mandarin
+        goto_file: chase_mandarin.yml
         requires_stuff: 
-          - blaster
+          - Tech Skills
 
-      - text: Remain
+      - text: Fight Venom and the Extremis Soldiers
         goto_file: 

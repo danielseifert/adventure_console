@@ -1,0 +1,14 @@
+title: ""
+description: "A group of agents has gone off to investigate the cause of the alarm."
+stuff: []
+questions:
+  - text: As you wait on the bridge, one of the doors is suddenly ripped open and in storms Venom with a crowd of Extremis soldiers! The battle begins! Venom rampages about, while the Extremis soldiers destroy the control center. In the end, Venom is finally subdued, and the Extremis soldiers are defeated. As if things weren't bad enough already, another alarm goes off, notifying a break-in on an extremely secret level. Another SHIELD agent mentions that she saw the Mandarin dash off in the fight down below. Do you remain, or go follow the Mandarin? 
+    options:
+
+      - text: Go search
+        goto_file: chase_mandarin.yml
+        requires_stuff: 
+          - 
+
+      - text: Remain
+        death: An unseen Extremis soldier lurking in a corner shoots you. You die.
