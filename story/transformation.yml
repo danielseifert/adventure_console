@@ -1,0 +1,12 @@
+title: ""
+description: "Before the Mandarin fits the stone into the case, you leap forward to attack."
+stuff: []
+questions:
+  - text: Before the Mandarin can respond, you stab him with your shock wand and grab at the stone. As you touch it, you feel energy surge through your body, feeling like you're burning alive. Quickly, you release the stone, reeling back, before everything goes black. When you wake up, both the stone and the Mandarin are gone. Out in the hallway, another hole has been blasted in the wall, where the Mandarin made his escape. As you watch, a helicopter flies by, the Mandarin at the controls. Two more appear, firing missiles at the Hellicarrier. Do you return fire with your pistol, or go the deck and chase them in a Quinn jet?
+    options:
+
+      - text: Wait
+        death: ""
+
+      - text: Attack Now
+        goto_file: 

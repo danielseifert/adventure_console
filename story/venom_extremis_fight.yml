@@ -1,21 +1,22 @@
-title: Agents of SHIELD Infinity Stones
-description: You are a new SHIELD agent. Pick any 3 of the special skills below to begin your career as a possible new hero.
+title: ""
+description: ""
 stuff:
   limit: 3
-  limit_message: Sorry, but security became suspicious at your ambition and had you eliminated. Try again.
+  limit_message: "Sorry, but security became suspicious at your ambition and had you eliminated. Try again."
   options:
     - Martial Arts
     - Tech Skills
     - Weapons Ability
     - Spy Skills
     - Acrobatic Ability
-    
 questions:
   - text: Welcome, new recruit, on your first mission for SHIELD. You begin your mission on the flight bridge of the SHIELD Hellicarrier. Suddenly, the alarms begin to sound. Someone has infiltrated the security system! Do you go search, or do you stay to guard the flight deck?
     options:
 
       - text: Go search
         goto_file: search_h.yml
+        requires_stuff: 
+          -
 
       - text: Remain
         goto_file: remain_h.yml

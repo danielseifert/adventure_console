@@ -2,7 +2,7 @@ title: ""
 description: "You run up to the door and begin chasing the Mandarin!"
 stuff: []
 questions:
-  - text: As you pursue the Mandarin, you notice he seems to be moving further and further into more secure and secret areas, destroying with explosives as he goes. Still unnoticed, you decide to see what he is looking for. Finally, he comes to a heavily secure area you've never seen before. An armored door stands in his way, and he pulls out a strange explosive device and sets it off, blowing the door off its hinges before entering. You go to the door and peek around the corner. The Mandarin stands before a chest, trying to unlock it. Do you wait to see what's inside, or shoot him now?
+  - text: As you pursue the Mandarin, you notice he seems to be moving further and further into more secure and secret areas, destroying with explosives as he goes. Still unnoticed, you decide to see what he is looking for. Finally, he comes to a heavily secure area you've never seen before. An armored door stands in his way, and he pulls out a strange explosive device and sets it off, blowing the door off its hinges before entering. You go to the door and peek around the corner. The Mandarin stands before a chest, trying to unlock it. On it is printed EXTRA-TERRESTRIAL OBJECT DANGER. Do you wait to see what's inside, or shoot him now?
     options:
 
       - text: Wait

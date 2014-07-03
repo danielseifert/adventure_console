@@ -11,4 +11,4 @@ questions:
           - Tech Skills
 
       - text: Fight Venom and the Extremis Soldiers
-        goto_file: 
+        death: Venom and the Extremis soldiers are too much for the few agents, and you are killed.
